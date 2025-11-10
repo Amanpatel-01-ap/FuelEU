@@ -1,3 +1,4 @@
+// ✅ Added validation and final banking/pooling logic
 // backend/src/server.ts
 import express from 'express';
 import cors from 'cors';

@@ -1,0 +1,11 @@
+{
+  "name": "fuel-eu-backend",
+  "version": "1.0.0",
+  
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "db:seed": "ts-node prisma/seed.ts"
+  }
+}

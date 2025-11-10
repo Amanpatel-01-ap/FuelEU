@@ -8,8 +8,8 @@ datasource db {
 }
 
 model Route {
-  id              Int     @id @default(autoincrement())
-  routeId         String  @unique
+  id              Int      @id @default(autoincrement())
+  routeId         String   @unique
   vesselType      String
   fuelType        String
   year            Int
@@ -17,8 +17,7 @@ model Route {
   fuelConsumption Float
   distance        Float
   totalEmissions  Float
-  isBaseline      Boolean @default(false)
-  createdAt       DateTime @default(now())
+  isBaseline      Boolean  @default(false)
 }
 
 model ShipCompliance {
